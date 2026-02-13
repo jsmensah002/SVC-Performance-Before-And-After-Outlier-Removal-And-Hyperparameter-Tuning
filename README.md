@@ -15,7 +15,7 @@ PHASE 1 Discussion:
 - LR emerged as the best model. Although RFC had a great test score, it ended up overfitting. Further optimization was then carried out to improve model performance.
 
 PHASE 2: Outlier Removal + Parameter Tunings
-- Outliers were addressed using quantile-based filtering (1st–99th percentile) and later replaced with the median. Removing outliers entirely was not possible because the target column and the 'HasCrCard' column are binary, containing only 1 (True) and 0 (False). This would have distorted the dataset.
+- Outliers were addressed using quantile-based filtering (1st–99th percentile) and later replaced with the median. Removing outliers entirely was not possible because the target column and the 'HasCrCard' column are binary, containing only 1 (True) and 0 (False). This would have distorted the dataset. Outliers accounted for 6.15% of the dataset.
 - Models were retrained and tuned again.
 
 Results from PHASE 2:
