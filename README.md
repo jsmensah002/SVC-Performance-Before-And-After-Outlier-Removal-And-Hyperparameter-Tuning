@@ -21,8 +21,8 @@ PHASE 2: Outlier Removal + Parameter Tunings
 
 Results from PHASE 2:
 - Logistic Regression (LR) : Train 80% of data score: 0.8719 || Test 20% of data score: 0.785
-- Support Vector Classification (SVC) : Train 80% of data score 0.7945 || Test 20% of data score: 0.785
-- Random Forest Classifier (RFC): Train 80% of data score: 0.9927 || Test 20% of data score: 0.785
+- Support Vector Classification (SVC) : Train 80% of data score 0.7945 || Test 20% of data score: 0.8035
+- Random Forest Classifier (RFC): Train 80% of data score: 0.9927 || Test 20% of data score: 0.859
 
 PHASE 2 Discussion:
 - Removing outliers and tuning parameters improved LR's performance but showed mild overfitting, significantly improved SVC's performance with no overfitting, and reduced RFC's performance.
